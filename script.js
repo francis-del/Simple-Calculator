@@ -1,3 +1,4 @@
+// deno-lint-ignore-file
 let firstOperand = ''
 let secondOperand = ''
 let currentOperation = null
