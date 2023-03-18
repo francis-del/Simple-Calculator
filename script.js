@@ -74,7 +74,7 @@ function setOperation(operator) {
 function evaluate() {
     if (currentOperation === null || shouldResetScreen) return
     if (currentOperation === '÷' && currentOperationScreen.textContent === '0') {
-        alert("You can't divide by 0!") //pops up hen a user tries to divide by 0
+        alert("You can't divide by 0!") //pops up When a user tries to divide by 0
         return
     }
     secondOperand = currentOperationScreen.textContent
